@@ -20,6 +20,7 @@ public class Test {
     Logger logger = Logger.getLogger(Test.class);
     @Before
     public void before() {
+        System.out.println("before test");
         context = new ClassPathXmlApplicationContext("classpath:spring-mybatis.xml");
         context.start();
     }
@@ -33,6 +34,7 @@ public class Test {
     }
     @After
     public void after() {
+        System.out.println("after test");
         context.close();
     }
 }
