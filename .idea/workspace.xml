@@ -6,8 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee6d9b53-db48-4198-8820-dd9ae94a7dd6" name="Default Changelist" comment="">
+    <list default="true" id="ee6d9b53-db48-4198-8820-dd9ae94a7dd6" name="Default Changelist" comment="first_commit:修改test文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -63,6 +74,11 @@
         <option name="mavenHome" value="D:/program_soft/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\program_soft\apache-maven-3.6.3\conf\default_settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1fcz9G59yWqlBLyWEkfifnZwjEn" />
@@ -304,6 +320,7 @@
       <workItem from="1596588771392" duration="1187000" />
       <workItem from="1596590185982" duration="12541000" />
       <workItem from="1596687044928" duration="2746000" />
+      <workItem from="1596696303373" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1596690238089</created>
@@ -319,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596690891887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first_commit:修改test文件">
+      <created>1596696583983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596696583983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +351,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first_commit" />
+    <MESSAGE value="first_commit:修改test文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="first_commit:修改test文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1596537246993">
@@ -342,10 +367,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="313" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1596550148544" />
-    <state x="829" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1596555444346">
+    <state x="829" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1596697522345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="829" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596555444346" />
+    <state x="829" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596697522345" />
     <state x="305" y="45" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596533049761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -362,10 +387,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596557108567" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1596690889291">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1596699277219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596690889291" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596699277219" />
     <state x="511" y="129" key="FileChooserDialogImpl" timestamp="1596687203480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -426,10 +451,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="199" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596689349681" />
-    <state x="428" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596690903793">
+    <state x="428" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596696600314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="428" y="159" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596690903793" />
+    <state x="428" y="159" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596696600314" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1596590198810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

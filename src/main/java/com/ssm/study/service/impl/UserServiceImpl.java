@@ -6,6 +6,8 @@ import com.ssm.study.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("userService")
 public class UserServiceImpl implements IUserService {
     @Autowired
@@ -14,4 +16,21 @@ public class UserServiceImpl implements IUserService {
     public User getUserById(int id) {
         return userMapper.selectByPrimaryKey(id);
     }
+
+    @Override
+    public void deleteUserById(int id) {
+        userMapper.deleteByPrimaryKey(id);
+    }
+
+    @Override
+    public void updateUserById(User user) {
+        userMapper.updateByPrimaryKey(user);
+    }
+
+    @Override
+    public void addUser(User user) {
+        userMapper.insert(user);
+    }
+
+
 }
