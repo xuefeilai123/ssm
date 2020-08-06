@@ -6,14 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee6d9b53-db48-4198-8820-dd9ae94a7dd6" name="Default Changelist" comment="first_commit:修改test文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ee6d9b53-db48-4198-8820-dd9ae94a7dd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/study/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +315,7 @@
       <workItem from="1596588771392" duration="1187000" />
       <workItem from="1596590185982" duration="12541000" />
       <workItem from="1596687044928" duration="2746000" />
-      <workItem from="1596696303373" duration="2677000" />
+      <workItem from="1596696303373" duration="3392000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1596690238089</created>
@@ -343,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596696583983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first_commit:新增用户添加、删除、修改等功能">
+      <created>1596699401746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596699401755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +354,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_commit" />
     <MESSAGE value="first_commit:修改test文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="first_commit:修改test文件" />
+    <MESSAGE value="first_commit:新增用户添加、删除、修改等功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="first_commit:新增用户添加、删除、修改等功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1596537246993">
@@ -387,10 +390,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596557108567" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1596699277219">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1596699391708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596699277219" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596699391708" />
     <state x="511" y="129" key="FileChooserDialogImpl" timestamp="1596687203480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -451,10 +454,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="199" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596689349681" />
-    <state x="428" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596696600314">
+    <state x="428" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596699416124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="428" y="159" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596696600314" />
+    <state x="428" y="159" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596699416124" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1596590198810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -2,7 +2,6 @@ package com.ssm.study.service;
 
 import com.ssm.study.domain.User;
 
-import java.util.List;
 
 public interface IUserService {
      User getUserById(int id);

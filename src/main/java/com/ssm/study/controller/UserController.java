@@ -21,11 +21,11 @@ public class UserController {
     public void delete(@PathVariable("id") int id) {
         userService.deleteUserById(id);
     }
-
+    @RequestMapping(value = "/update")
     public void update(@RequestBody User user) {
         userService.updateUserById(user);
     }
-
+    @RequestMapping(value = "/add")
     public void add(@RequestBody User user) {
         userService.addUser(user);
 
